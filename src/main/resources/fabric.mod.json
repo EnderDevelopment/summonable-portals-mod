@@ -1,0 +1,20 @@
+{
+    "schemaVersion": 1,
+    "id": "summonableportalsmod",
+    "version": "1.0.0",
+    "name": "Summonable Portals Mod",
+    "description": "A mod that adds summonable portals like in Zelda: Twilight Princess.",
+    "authors": ["germanogeppettinetti"],
+    "license": "MIT",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.germanogeppettinetti.summonableportalsmod.SummonablePortalsMod"
+        ]
+    },
+    "mixins": [],
+    "depends": {
+        "fabricloader": ">=0.14.0",
+        "minecraft": "1.20.4"
+    }
+}
